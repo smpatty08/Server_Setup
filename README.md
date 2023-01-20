@@ -6,20 +6,28 @@ I got tired of running individual commands all the time, so I created some scrip
 
 Using this script
 
-Clone the repo
-'''git clone https://github.com/smpatty08/Server_Setup.git'''
-, or copy / paste the code from the install.sh file into a file on your server.
-nano install.sh
+Install Git:
+
+```sudo apt install git```
+
+Clone the repo:
+
+```git clone https://github.com/smpatty08/Server_Setup.git```
+
+or copy / paste the code from the install.sh file into a file on your server:
+
+```nano install.sh```
+
 to open a text editor in the terminal, then use CTRL + Shift + V to paste into it.
 Save with CTRL + O, then Enter to confirm, and exit the nano editor with CTRL + X.
 
-Change the permissions of the .sh file to make it executable with.
+Change the permissions of the .sh file to make it executable with:
 
-chmod +x install.sh
+```chmod +x install.sh```
 
-Run the installer with
+Run the installer with:
 
-./install.sh
+```./install.sh```
 
 Prompts from the script:
 First, you'll be prompted to select the number for your OS / Distro.
