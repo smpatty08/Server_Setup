@@ -10,18 +10,18 @@ Clone the repo
 git clone https://gitlab.com/bmcgonag/docker_installs.git
 
 
-, or copy / paste the code from the install_docker_nproxyman.sh file into a file on your server.
-nano docker-install.sh
+, or copy / paste the code from the install.sh file into a file on your server.
+nano install.sh
 to open a text editor in the terminal, then use CTRL + Shift + V to paste into it.
 Save with CTRL + O, then Enter to confirm, and exit the nano editor with CTRL + X.
 
 Change the permissions of the .sh file to make it executable with.
 
-chmod +x docker-install.sh
+chmod +x install.sh
 
 Run the installer with
 
-./docker-install.sh
+./install.sh
 
 Prompts from the script:
 First, you'll be prompted to select the number for your OS / Distro.  Currently I support CentOS 7 and 8, Debian 10 and 11, Ubuntu 18.04, 20.04, 22.04, Arch Linux, and Open Suse (tested on Leap 15.4).
