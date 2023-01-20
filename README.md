@@ -1,5 +1,5 @@
 # Server_Setup
-This script will help install any, or all, of Docker-CE, Docker-Compose, NGinX Proxy Manager, and Portainer-CE.
+This script will help install any, or all, of Docker-CE, Docker-Compose, NGinX Proxy Manager, Navidrome, and Portainer-CE.
 
 Reason for Making this Script
 I got tired of running individual commands all the time, so I created some scripts to make this very easy.
@@ -7,9 +7,7 @@ I got tired of running individual commands all the time, so I created some scrip
 Using this script
 
 Clone the repo
-git clone https://gitlab.com/bmcgonag/docker_installs.git
-
-
+git clone https://github.com/smpatty08/Server_Setup.git
 , or copy / paste the code from the install.sh file into a file on your server.
 nano install.sh
 to open a text editor in the terminal, then use CTRL + Shift + V to paste into it.
@@ -24,7 +22,9 @@ Run the installer with
 ./install.sh
 
 Prompts from the script:
-First, you'll be prompted to select the number for your OS / Distro.  Currently I support CentOS 7 and 8, Debian 10 and 11, Ubuntu 18.04, 20.04, 22.04, Arch Linux, and Open Suse (tested on Leap 15.4).
+First, you'll be prompted to select the number for your OS / Distro.
+Currently I support CentOS 7 and 8, Debian 10 and 11, Ubuntu 18.04, 20.04, 22.04,
+Arch Linux, and Open Suse (tested on Leap 15.4).
 Next, you'll be asked to answer "y" to any of the four software packages you'd like to install.
 
 Docker-CE
