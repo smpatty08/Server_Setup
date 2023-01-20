@@ -7,7 +7,7 @@ I got tired of running individual commands all the time, so I created some scrip
 Using this script
 
 Clone the repo
-git clone https://github.com/smpatty08/Server_Setup.git
+'''git clone https://github.com/smpatty08/Server_Setup.git'''
 , or copy / paste the code from the install.sh file into a file on your server.
 nano install.sh
 to open a text editor in the terminal, then use CTRL + Shift + V to paste into it.
